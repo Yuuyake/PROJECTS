@@ -1,0 +1,10 @@
+								Language of		coding LOGIC CIRCUIT'S	
+
+For Example;
+  *create mux myMUX	=i1,i2,i3,i4/o1;
+  *create demux myDEMUX	=i0/o1,o2,o3,o4;
+  *connect myMUX to myDEMUX(myMUX.o1,myDEMUX.i0);
+  *create clk;
+  *myDEMUX.o2=OUTPIN;
+  *myMUX.i2=INPIN(1);
+  
